@@ -252,6 +252,9 @@ footer .service_links:hover {
 }
 
 @media (max-width: 995px) {
+  .hero_sec {
+    background-position: left;
+  }
   .hero_sec h1 {
     font-size: 3rem;
   }
