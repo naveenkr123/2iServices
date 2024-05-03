@@ -273,6 +273,9 @@ footer .service_links:hover {
     font-size: 1.6rem;
     margin-bottom: 2rem;
   }
+  .services_sec .service_card {
+    margin: 0.5rem 1rem;
+  }
   .meet_sec .wrapper {
     flex-direction: column;
   }
