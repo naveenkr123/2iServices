@@ -269,6 +269,9 @@ footer .service_links:hover {
   .about_sec {
     margin-bottom: 1rem;
   }
+  .about_sec h2 {
+    font-size: 2rem;
+  }
   .hero_sec h1 {
     font-size: 3rem;
   }
