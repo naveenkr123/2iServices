@@ -257,6 +257,9 @@ footer .service_links:hover {
   }
 }
 @media (max-width: 768px) {
+  .navbar {
+    margin-bottom: 6rem;
+  }
   .nav-link {
     margin: 0;
   }
