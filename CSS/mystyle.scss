@@ -30,9 +30,12 @@ body {
     }
   }
 }
-
+.textblack {
+  color: black !important;
+}
 // Hero Section
-.hero_sec {
+.hero_sec,
+.about_page {
   background-color: #151515;
   background-image: url(/Images/background-oillusion.png);
   background-size: cover;
@@ -61,6 +64,18 @@ body {
     span {
       color: $primaryBlue;
     }
+  }
+}
+
+// About page hero section
+.about_page {
+  padding-bottom: 5rem;
+  background-position: top;
+  h1 {
+    font-size: 3rem;
+  }
+  .navbar {
+    margin-bottom: 5rem;
   }
 }
 
@@ -112,6 +127,29 @@ body {
       width: 100%;
       object-fit: cover;
     }
+  }
+}
+
+// Certification section
+.certification_sec {
+  margin-bottom: 5rem;
+  h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    margin-bottom: 1.5rem;
+    margin-bottom: 4rem;
+  }
+  .certificate_card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    margin: 0 1rem;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
   }
 }
 

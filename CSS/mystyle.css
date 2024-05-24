@@ -26,7 +26,12 @@ body {
   background-image: url(/Images/menu.svg);
 }
 
-.hero_sec {
+.textblack {
+  color: black !important;
+}
+
+.hero_sec,
+.about_page {
   background-color: #151515;
   background-image: url(/Images/background-oillusion.png);
   background-size: cover;
@@ -35,10 +40,12 @@ body {
   padding-bottom: 10rem;
   text-align: center;
 }
-.hero_sec .material-symbols-outlined {
+.hero_sec .material-symbols-outlined,
+.about_page .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" -25, "opsz" 20;
 }
-.hero_sec .km_button {
+.hero_sec .km_button,
+.about_page .km_button {
   display: flex;
   align-items: center;
   background-color: #0060ff;
@@ -47,15 +54,29 @@ body {
   border: 0;
   border-radius: 5px;
 }
-.hero_sec .km_button:hover {
+.hero_sec .km_button:hover,
+.about_page .km_button:hover {
   background-color: #132144;
   transition: 0.3s;
 }
-.hero_sec h1 {
+.hero_sec h1,
+.about_page h1 {
   font-size: 5rem;
 }
-.hero_sec h1 span {
+.hero_sec h1 span,
+.about_page h1 span {
   color: #0060ff;
+}
+
+.about_page {
+  padding-bottom: 5rem;
+  background-position: top;
+}
+.about_page h1 {
+  font-size: 3rem;
+}
+.about_page .navbar {
+  margin-bottom: 5rem;
 }
 
 .about_sec {
@@ -105,6 +126,28 @@ body {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.certification_sec {
+  margin-bottom: 5rem;
+}
+.certification_sec h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+  margin-bottom: 1.5rem;
+  margin-bottom: 4rem;
+}
+.certification_sec .certificate_card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  margin: 0 1rem;
+}
+.certification_sec img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .services_sec h5 {
